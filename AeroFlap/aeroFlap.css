@@ -1,0 +1,40 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #010609 0%, #2a5298 100%);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    /* background-color: aqua; */
+    background-image: url(./nyc1.jpeg);
+    background-size: cover;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-left: 100px;
+    color: #ffd700; /* Golden color */
+}
+
+.info {
+    margin-top: -500px;
+}
+
